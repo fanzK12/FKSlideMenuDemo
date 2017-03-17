@@ -13,6 +13,15 @@
 		18CD6D8B1E7BAA86006AFED1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CD6D891E7BAA86006AFED1 /* Main.storyboard */; };
 		18CD6D8D1E7BAA86006AFED1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CD6D8C1E7BAA86006AFED1 /* Assets.xcassets */; };
 		18CD6D901E7BAA86006AFED1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CD6D8E1E7BAA86006AFED1 /* LaunchScreen.storyboard */; };
+		18CD6DA11E7BADC8006AFED1 /* NSArray+printChinese.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CD6DA01E7BADC8006AFED1 /* NSArray+printChinese.m */; };
+		18CD6DA41E7BADDE006AFED1 /* NSDictionary+printChinese.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CD6DA31E7BADDE006AFED1 /* NSDictionary+printChinese.m */; };
+		18CD6DA71E7BAE61006AFED1 /* FKFirstMenuVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CD6DA61E7BAE61006AFED1 /* FKFirstMenuVC.m */; };
+		18CD6DA91E7BB000006AFED1 /* 频道ID.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18CD6DA81E7BB000006AFED1 /* 频道ID.plist */; };
+		18CD6DB31E7BC9BC006AFED1 /* FKChannelCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CD6DB11E7BC9BC006AFED1 /* FKChannelCollectionViewCell.m */; };
+		18CD6DB41E7BC9BC006AFED1 /* FKChannelCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18CD6DB21E7BC9BC006AFED1 /* FKChannelCollectionViewCell.xib */; };
+		18CD6DB81E7BCA38006AFED1 /* FKChannelCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CD6DB61E7BCA38006AFED1 /* FKChannelCollectionReusableView.m */; };
+		18CD6DB91E7BCA38006AFED1 /* FKChannelCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18CD6DB71E7BCA38006AFED1 /* FKChannelCollectionReusableView.xib */; };
+		18CD6DBC1E7BCAA0006AFED1 /* FKAddChannelVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CD6DBB1E7BCAA0006AFED1 /* FKAddChannelVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +35,23 @@
 		18CD6D8C1E7BAA86006AFED1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18CD6D8F1E7BAA86006AFED1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18CD6D911E7BAA86006AFED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18CD6D9A1E7BABA1006AFED1 /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		18CD6D9B1E7BABA1006AFED1 /* Pch.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pch.pch; sourceTree = "<group>"; };
+		18CD6D9F1E7BADC8006AFED1 /* NSArray+printChinese.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+printChinese.h"; sourceTree = "<group>"; };
+		18CD6DA01E7BADC8006AFED1 /* NSArray+printChinese.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+printChinese.m"; sourceTree = "<group>"; };
+		18CD6DA21E7BADDE006AFED1 /* NSDictionary+printChinese.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+printChinese.h"; sourceTree = "<group>"; };
+		18CD6DA31E7BADDE006AFED1 /* NSDictionary+printChinese.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+printChinese.m"; sourceTree = "<group>"; };
+		18CD6DA51E7BAE61006AFED1 /* FKFirstMenuVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKFirstMenuVC.h; sourceTree = "<group>"; };
+		18CD6DA61E7BAE61006AFED1 /* FKFirstMenuVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKFirstMenuVC.m; sourceTree = "<group>"; };
+		18CD6DA81E7BB000006AFED1 /* 频道ID.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "频道ID.plist"; sourceTree = "<group>"; };
+		18CD6DB01E7BC9BC006AFED1 /* FKChannelCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKChannelCollectionViewCell.h; sourceTree = "<group>"; };
+		18CD6DB11E7BC9BC006AFED1 /* FKChannelCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKChannelCollectionViewCell.m; sourceTree = "<group>"; };
+		18CD6DB21E7BC9BC006AFED1 /* FKChannelCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FKChannelCollectionViewCell.xib; sourceTree = "<group>"; };
+		18CD6DB51E7BCA38006AFED1 /* FKChannelCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKChannelCollectionReusableView.h; sourceTree = "<group>"; };
+		18CD6DB61E7BCA38006AFED1 /* FKChannelCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKChannelCollectionReusableView.m; sourceTree = "<group>"; };
+		18CD6DB71E7BCA38006AFED1 /* FKChannelCollectionReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FKChannelCollectionReusableView.xib; sourceTree = "<group>"; };
+		18CD6DBA1E7BCAA0006AFED1 /* FKAddChannelVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKAddChannelVC.h; sourceTree = "<group>"; };
+		18CD6DBB1E7BCAA0006AFED1 /* FKAddChannelVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKAddChannelVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +84,15 @@
 		18CD6D7F1E7BAA86006AFED1 /* FKSlideMenuDemo */ = {
 			isa = PBXGroup;
 			children = (
+				18CD6DAA1E7BC8F2006AFED1 /* View */,
+				18CD6D971E7BAB41006AFED1 /* Common */,
+				18CD6D981E7BAB41006AFED1 /* MenuVC */,
+				18CD6D991E7BAB41006AFED1 /* Tool */,
 				18CD6D831E7BAA86006AFED1 /* AppDelegate.h */,
 				18CD6D841E7BAA86006AFED1 /* AppDelegate.m */,
 				18CD6D861E7BAA86006AFED1 /* ViewController.h */,
 				18CD6D871E7BAA86006AFED1 /* ViewController.m */,
+				18CD6DA81E7BB000006AFED1 /* 频道ID.plist */,
 				18CD6D891E7BAA86006AFED1 /* Main.storyboard */,
 				18CD6D8C1E7BAA86006AFED1 /* Assets.xcassets */,
 				18CD6D8E1E7BAA86006AFED1 /* LaunchScreen.storyboard */,
@@ -77,6 +108,50 @@
 				18CD6D811E7BAA86006AFED1 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18CD6D971E7BAB41006AFED1 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				18CD6D9A1E7BABA1006AFED1 /* common.h */,
+				18CD6D9B1E7BABA1006AFED1 /* Pch.pch */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		18CD6D981E7BAB41006AFED1 /* MenuVC */ = {
+			isa = PBXGroup;
+			children = (
+				18CD6DA51E7BAE61006AFED1 /* FKFirstMenuVC.h */,
+				18CD6DA61E7BAE61006AFED1 /* FKFirstMenuVC.m */,
+				18CD6DBA1E7BCAA0006AFED1 /* FKAddChannelVC.h */,
+				18CD6DBB1E7BCAA0006AFED1 /* FKAddChannelVC.m */,
+			);
+			path = MenuVC;
+			sourceTree = "<group>";
+		};
+		18CD6D991E7BAB41006AFED1 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				18CD6D9F1E7BADC8006AFED1 /* NSArray+printChinese.h */,
+				18CD6DA01E7BADC8006AFED1 /* NSArray+printChinese.m */,
+				18CD6DA21E7BADDE006AFED1 /* NSDictionary+printChinese.h */,
+				18CD6DA31E7BADDE006AFED1 /* NSDictionary+printChinese.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		18CD6DAA1E7BC8F2006AFED1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18CD6DB01E7BC9BC006AFED1 /* FKChannelCollectionViewCell.h */,
+				18CD6DB11E7BC9BC006AFED1 /* FKChannelCollectionViewCell.m */,
+				18CD6DB21E7BC9BC006AFED1 /* FKChannelCollectionViewCell.xib */,
+				18CD6DB51E7BCA38006AFED1 /* FKChannelCollectionReusableView.h */,
+				18CD6DB61E7BCA38006AFED1 /* FKChannelCollectionReusableView.m */,
+				18CD6DB71E7BCA38006AFED1 /* FKChannelCollectionReusableView.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +214,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				18CD6D901E7BAA86006AFED1 /* LaunchScreen.storyboard in Resources */,
+				18CD6DB41E7BC9BC006AFED1 /* FKChannelCollectionViewCell.xib in Resources */,
+				18CD6DA91E7BB000006AFED1 /* 频道ID.plist in Resources */,
 				18CD6D8D1E7BAA86006AFED1 /* Assets.xcassets in Resources */,
+				18CD6DB91E7BCA38006AFED1 /* FKChannelCollectionReusableView.xib in Resources */,
 				18CD6D8B1E7BAA86006AFED1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,8 +229,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18CD6DB81E7BCA38006AFED1 /* FKChannelCollectionReusableView.m in Sources */,
+				18CD6DB31E7BC9BC006AFED1 /* FKChannelCollectionViewCell.m in Sources */,
+				18CD6DA11E7BADC8006AFED1 /* NSArray+printChinese.m in Sources */,
+				18CD6DBC1E7BCAA0006AFED1 /* FKAddChannelVC.m in Sources */,
+				18CD6DA71E7BAE61006AFED1 /* FKFirstMenuVC.m in Sources */,
 				18CD6D881E7BAA86006AFED1 /* ViewController.m in Sources */,
 				18CD6D851E7BAA86006AFED1 /* AppDelegate.m in Sources */,
+				18CD6DA41E7BADDE006AFED1 /* NSDictionary+printChinese.m in Sources */,
 				18CD6D821E7BAA86006AFED1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

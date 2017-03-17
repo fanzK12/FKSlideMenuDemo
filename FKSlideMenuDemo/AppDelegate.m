@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "FKFirstMenuVC.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +16,14 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window=[[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
+    UINavigationController*newsNavi=[[UINavigationController alloc]initWithRootViewController:[[FKFirstMenuVC alloc]init]];
+    
+     self.window.rootViewController=newsNavi;
+    
     return YES;
 }
 
